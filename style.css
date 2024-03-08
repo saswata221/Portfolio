@@ -1,0 +1,690 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.deb{
+  width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+ /* Navbar stylling */
+ .navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    z-index: 999;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    transition: all 0.3s ease;
+ }
+ .navbar-color{
+    background-color: white;
+    width: 100%;
+}
+
+ .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .navbar .logo a{
+    color: #e5261c;
+    font-size: 35px;
+    font-weight: 700;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: #ec2c2c;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: rgb(255, 255, 255);
+}
+/* home section */
+.home{
+    display: flex;
+    background-color: #050404;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .pp {
+  display: flex;
+  background-image: url(myimage2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90%;
+  width: 100%;
+  margin-top: 4.5%;
+}
+.home .max-width {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-left: 9rem;
+}
+.home .max-width .home-content{
+  height: 200px;
+}
+  .home .home-content .txt1{
+    font-size: 2rem;
+    color: #ec2c2c;
+
+  }
+  .home .home-content .txt2{
+    font-size: 4rem;
+    color: #ec2c2c;
+  }
+  .home .home-content .txt2 span{
+    font-size: 4rem;
+    color: #ffffff;
+  }
+  .home .home-content .txt3{
+    font-size: 2rem;
+    color: #ec2c2c;
+
+  }
+  .home .home-content .txt3 span{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+
+  }
+  #bottone1 {
+    padding: 16px 33px;
+    border-radius: 185px;
+    background: #ec2c2c;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    position:absolute;
+    top: 500px;
+}
+   
+   #bottone1:hover {
+    box-shadow: 7px 5px 56px -14px #ec2c2c;
+   }
+   
+   #bottone1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #ec2c2c;
+   }
+
+/* about section styling */
+.about{
+  padding: 5rem 0rem;
+}
+.titlea {
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.about .hi {
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem 0rem 1.5rem 0rem;
+  color: #000000;
+  font-weight: 1000;
+}
+.about .hi span{
+  text-align: center;
+  width: 100%;
+  font-weight: 800;
+  color: #ec2c2c;
+  font-family: 'Ubuntu', sans-serif;
+}
+.about-content{
+  display: flex;
+}
+
+.about .about-content .right{
+  width: 45%;
+  padding: 0rem 5rem;
+}
+.about .about-content .right img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid crimson;
+}
+.about .about-content .left {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0rem 4rem 0rem 4rem;
+}
+.about .about-content .left .text-1{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+.about .about-content .left .text-2{
+  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+ 
+}
+.about .about-footer {
+  width: 100%;
+  height: 3rem;
+  padding: 5rem 0rem 3rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+.about .about-footer .aft{
+  width: 180px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 0.5px solid #ec2c2c;
+  background-color: #ec2c2cec;
+  
+ 
+}
+.about .about-footer2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about .about-footer2 .logos{
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+/* services section */
+
+
+.card-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 1px solid #ec2c2c;
+}
+
+.card .front-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.card .front-content p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 1;
+  background: #ec2c2c;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.card .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  background: linear-gradient(-45deg, #f89b29 0%, #ec2c2c 100% );
+  color: #e8e8e8;
+  padding: 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translateY(100%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card .content .heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.card:hover .content {
+  transform: translateY(0);
+}
+
+.card:hover .front-content {
+  transform: translateY(-30%);
+}
+
+.card:hover .front-content p {
+  opacity: 0;
+}
+
+
+
+.services .max-width .title{
+  width: 100%;
+}
+.serv-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+.serv-width{
+  display: inline;
+  padding: 5rem 0rem;
+
+}
+ .titles {
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  padding:2rem  0rem 0rem 0rem;
+  color: #ffffff;
+}
+.services {
+  background-color: #000000;
+  padding: 2rem 0rem;
+}
+.serv-width p span{
+  color: #ec2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+.serv-width  p{
+  color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* skill section stylling */
+
+.skills  .title{
+  color: #000000;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  width: 100%;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills p{
+  color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.skills  p span{
+  font-family: 'Ubuntu', sans-serif;
+  color:#ec2c2c;
+  justify-content: center;
+  align-items: center;
+}
+.skills{
+  padding:5rem 0rem;
+}
+.skills .max-width{
+  padding-top: 3rem;
+}
+.skills-content{
+  width: 80%;
+  display: flex;
+}
+ .skills-content .left{
+  width: 50%;
+  padding: 2rem;
+}
+.skills-content .right{
+  width: 50%;
+  padding: 2rem;
+}
+.skills .max-width .skills-content .left .text{
+  font-weight: 700;
+  font-size: 1.5rem; 
+  font-family:  sans-serif;
+}
+.skills .max-width .skills-content .left p{
+  font-weight: 300;
+  font-size: 1rem; 
+  font-family: 'Ubuntu', sans-serif;
+  padding: 1.5rem 0rem;
+  line-height: 1.4rem;
+}
+.button {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #252525;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #000000;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-txt {
+  z-index: 1;
+  font-weight: 1000;
+  letter-spacing: 4px;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 2rem;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #ec2c2c;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.button:hover {
+  box-shadow:5px 5px  5px #252525;
+  color: #fff;
+  border: none;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
+.skills .skills-content .right .bars{
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line{
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #ec2c2c;
+}
+.skills-content .right .html::before{
+  width: 90%;
+}
+.skills-content .right .css::before{
+  width: 100%;
+}
+.skills-content .right .js::before{
+  width: 80%;
+}
+.skills-content .right .tailwind::before{
+  width: 80%;
+}
+
+/* projects section styling */
+.projects{
+  background-color: #0e0e0e;
+  padding: 4rem 0rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.projects .title{
+  color:crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0rem;
+  font-size: 2.5rem;
+}
+.projects .max-width .work{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding:1rem 0rem ;
+}
+
+.projects .work .card{
+  width: 23%;
+  background-color: #f1e9e9;
+  border-radius:60px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.projects .work .card:hover{
+  background: crimson;
+}
+.projects .work .card .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.projects .work .card:hover .box{
+  transform: scale(1.02);
+}
+.projects .work .card .text{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+.projects .work .card img{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20%;
+  border: 5px solid crimson;
+  transition: all 0.3s ease;
+}
+.projects .work .card:hover img{
+  border-color: #fff;
+}
+
+/* contact section styling */
+.contact .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.contact .text{
+  padding-top: 0.3rem;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  align-items: center;
+}
+.contact .text span{
+  padding-top: 0.3rem;
+  color:#ec2c2c;
+  display: flex;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  align-items: center;
+} 
+.contact{
+  padding: 3rem 0rem;
+}
+
+.contact .contact-content {
+  width: 100%;
+  display: flex;
+  padding: 2rem 15rem;
+  justify-content: space-between ;
+  
+
+}
+.contact .contact-content .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+  text-align: justify;
+ font-family: 'Ubuntu', sans-serif;
+
+}
+.contact .contact-content .left {
+  text-align: justify;
+ font-family: 'Ubuntu', sans-serif;
+
+}
+.contact .contact-content .left .icons{
+  margin: 10px 0;
+}
+.contact .contact-content .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .row .info{
+  margin-left: 30px;
+}
+.contact .contact-content .row i{
+  font-size: 25px;
+  color: crimson;
+}
+.contact .contact-content .info .head{
+  font-weight: 500;
+}
+
+
+.contact .right form .fields{
+  display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .textarea{
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .name{
+  margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+  border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+padding-top: 10px;
+resize: none;
+}
+.contact .right form .button-area{
+display: flex;
+align-items: center;
+}
+.right form .button-area button{
+color: #fff;
+display: block;
+width: 160px!important;
+height: 45px;
+outline: none;
+font-size: 18px;
+font-weight: 500;
+border-radius: 6px;
+cursor: pointer;
+flex-wrap: nowrap;
+background: crimson;
+border: 2px solid crimson;
+transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+color: crimson;
+background: none;
+}
