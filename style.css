@@ -6,6 +6,7 @@
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
+    color: black;
 }
 .deb{
   width: 100%;
@@ -132,7 +133,7 @@ html{
 
 /* about section styling */
 .about{
-  padding: 5rem 0rem;
+  padding: 5rem 0rem 0rem 0rem;
 }
 .titlea {
   text-align: center;
@@ -201,6 +202,7 @@ html{
   justify-content: center;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+  background-color: #48a9a6;
 }
 .about .about-footer .aft{
   width: 180px;
@@ -211,14 +213,14 @@ html{
   border-radius: 50px;
   border: 0.5px solid #ec2c2c;
   background-color: #ec2c2cec;
-  
- 
 }
 .about .about-footer2 {
   width: 100%;
   display: flex;
   align-items: center;
+  background-color: #48a9a6;
   justify-content: space-evenly;
+  padding-bottom: 5rem;
 }
 .about .about-footer2 .logos{
   width: 100%;
@@ -230,8 +232,6 @@ html{
 
 
 /* services section */
-
-
 .card-container {
   width: 300px;
   height: 300px;
