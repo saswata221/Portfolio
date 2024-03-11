@@ -692,7 +692,7 @@ background: none;
 
 /* responsiveness */
 
-@media (max-width:500px){
+@media (min-width:200px) and (max-width:500px){
   .navbar {
  
   width:500px;
