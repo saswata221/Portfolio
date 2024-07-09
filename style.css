@@ -773,6 +773,7 @@ background: none;
 }
 .home{
   height: 370px;
+  background-color: black;
 }
 .home .max-width{
   margin-left: 3rem;
@@ -803,9 +804,8 @@ background: none;
 }
 .home .pp {
   scale: 1.5;
-  margin-top: 265.5px;
+  margin-top: 55.5px;
   margin-right: 45px;
-  height: 1000px;
 }
 
 .about {
