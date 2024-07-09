@@ -722,7 +722,7 @@ align-items: center;
 .right form .button-area button{
 color: #fff;
 display: block;
-width: 160px!important;
+width: 160px;
 height: 45px;
 outline: none;
 font-size: 18px;
@@ -753,10 +753,13 @@ background: none;
   padding-left: 7px;
  
 }
+/* .navbar .menu ul li a .new_project{
+  margin-left: 31px;
+} */
 .navbar .menu li a {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 700;
-  margin-left: 27px;
+  margin-left:31px;
 }
 .home{
   height: 370px;
@@ -790,7 +793,7 @@ background: none;
 }
 .home .pp {
   scale: 1.5;
-  margin-top: 256px;
+  margin-top: 265.5px;
   margin-right: 45px;
   height: 1000px;
 }
@@ -820,8 +823,8 @@ background: none;
   padding: 0rem 0rem 1rem 0rem ;
 }
 .about .about-content .right img {
-  height: 200px;
-  width: 191px;
+  height: 185px;
+  width: 180px;
 }
 .about .about-footer{
   padding: 0;
