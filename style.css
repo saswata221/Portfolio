@@ -750,12 +750,13 @@ background: none;
 }
 .navbar .logo a {
   font-size: 25px;
+  padding-left: 7px;
  
 }
 .navbar .menu li a {
   font-size: 15px;
   font-weight: 700;
-  margin-left: 20px;
+  margin-left: 27px;
 }
 .home{
   height: 370px;
@@ -788,7 +789,9 @@ background: none;
   top: 320px;
 }
 .home .pp {
-  margin-top: 34px;
+  scale: 1.5;
+  margin-top: 256px;
+  margin-right: 45px;
   height: 1000px;
 }
 
@@ -818,7 +821,7 @@ background: none;
 }
 .about .about-content .right img {
   height: 200px;
-  width: 200px;
+  width: 191px;
 }
 .about .about-footer{
   padding: 0;
@@ -929,6 +932,9 @@ background: none;
   font-weight: 500;
   margin: 5px 0px;
 }
+.projects p {
+  padding-bottom: 5px;
+}
 .contact {
   padding: 1rem 0rem;
 }
@@ -976,7 +982,7 @@ font-size: 0.8rem;
 }
 .contact .right form .button-area {
   display: flex;
-  justify-content: center;
+  justify-content:end;
   align-items: center;
 }
 .contact .right form .field input, .contact .right form .textarea textarea{
