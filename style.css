@@ -25,7 +25,7 @@ section{
     padding: 30px 0;
     z-index: 999;
     font-family: 'Ubuntu', sans-serif;
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.479);
     transition: all 0.3s ease;
  }
  .navbar-color{
@@ -64,7 +64,6 @@ section{
   position: absolute;
   width: 100%;
   z-index: -1;
-  rotate: 180deg;
   bottom: 0;
 }
 
@@ -502,6 +501,7 @@ section{
   width: 100%;
   background: lightgrey;
   position: relative;
+  border-radius: 5px;
 }
 .skills .skills-content .right .line::before{
   content: "";
@@ -510,6 +510,7 @@ section{
   left: 0;
   top: 0;
   background: #ec2c2c;
+   border-radius: 5px;
 }
 .skills-content .right .html::before{
   width: 90%;
@@ -523,6 +524,26 @@ section{
 .skills-content .right .tailwind::before{
   width: 80%;
 }
+
+.skills-content .right .react::before{
+  width: 70%;
+}
+
+.skills-content .right .node::before{
+  width: 60%;
+}
+.skills-content .right .express::before{
+  width: 50%;
+}
+.skills-content .right .mongo::before{
+  width: 50%;
+}
+.skills-content .right .postgres::before{
+  width: 50%;
+}
+
+
+
 
 /* projects section styling */
 .projects{
@@ -754,7 +775,7 @@ background: none;
 
 @media (min-width:200px) and (max-width:500px){
   .navbar {
- 
+    background-color: black;
   width:500px;
   padding: 20px 0;
 }
@@ -763,9 +784,7 @@ background: none;
   padding-left: 7px;
  
 }
-/* .navbar .menu ul li a .new_project{
-  margin-left: 31px;
-} */
+
 .navbar .menu li a {
   font-size: 13px;
   font-weight: 700;
